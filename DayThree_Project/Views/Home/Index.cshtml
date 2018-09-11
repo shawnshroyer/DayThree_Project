@@ -197,10 +197,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <p>This section will contain information about me.<br />73<br />Shawn Shroyer</p>
+                    <p>I currently have a MBA and Bachelors of Science in Information Technology.  My professional career
+                    includes five and a half years a Lowe's Corporate.  My tasks ranged from porgramming in C, manual testing, and
+                    helping manage resources for test environments.  Spare time work includes production work from stage 
+                    production (Audio Perfered) to Video work including editing and live video.<br />73<br />Shawn Shroyer</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a href="~/Documents/Resume Shawn Shroyer.docx" id="resume" class="btn btn-lg btn-outline">
                         Download Resume
                     </a>
                 </div>
@@ -213,7 +216,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Contact Me (UNDER CONSTRUCTION)</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -299,8 +302,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>About This Page</h3>
+                        <p>I used Freelance Bootsrap Theme, which is a free to use and open source. Created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -354,25 +357,35 @@
                                         Input numbers and press calculate
                                     </div>
                                     <form action="" name="numRunForm" id="numRunForm">
-                                        <div class="row rowHeight">
-                                            <label for="numRunForm">Number 1: </label>
-                                            <input type="number" name="num1" id="num1" placeholder="1" />
+                                        <div class="form-group row rowHeight">
+                                            <label class="col-md-3 col-form-label" for="numRunForm">Number 1: </label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="number" name="num1" id="num1" placeholder="1" />
+                                            </div>
                                         </div>
-                                        <div class="row rowHeight">
-                                            <label for="numRunForm">Number 2: </label>
-                                            <input type="number" name="num2" id="num2" placeholder="2" />
+                                        <div class="form-group row rowHeight">
+                                            <label class="col-md-3 col-form-label" for="numRunForm">Number 2: </label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="number" name="num2" id="num2" placeholder="2" />
+                                            </div>
                                         </div>
-                                        <div class="row rowHeight">
-                                            <label for="numRunForm">Number 3: </label>
-                                            <input type="number" name="num3" id="num3" placeholder="3" />
+                                        <div class="form-group row rowHeight">
+                                            <label class="col-md-3 col-form-label" for="numRunForm">Number 3: </label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="number" name="num3" id="num3" placeholder="3" />
+                                            </div>
                                         </div>
-                                        <div class="row rowHeight">
-                                            <label for="numRunForm">Number 4: </label>
-                                            <input type="number" name="num4" id="num4" placeholder="4" />
+                                        <div class="form-group row rowHeight">
+                                            <label class="col-md-3 col-form-label" for="numRunForm">Number 4: </label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="number" name="num4" id="num4" placeholder="4" />
+                                            </div>
                                         </div>
-                                        <div class="row rowHeight">
-                                            <label for="numRunForm">Number 5: </label>
-                                            <input type="number" name="num5" id="num5" placeholder="5" />
+                                        <div class="form-group row rowHeight">
+                                            <label class="col-md-3 col-form-label" for="numRunForm">Number 5: </label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="number" name="num5" id="num5" placeholder="5" />
+                                            </div>
                                         </div>
                                     </form>
                                     <div class="row rowHeight">
@@ -417,11 +430,16 @@
 
                                 <div id="facNum" class="tab-pane fade">
                                     <h3>Factorial of a Number</h3>
-
-                                    <form action="" name="facForm" id="facForm">
-                                        <label for="facForm">Enter Number: </label>
-                                        <input type="number" name="facIn" id="facIn" placeholder="1" />
-                                    </form>
+                                    <div class="rowHeight">
+                                        <form action="" name="facForm" id="facForm">
+                                            <div class="form-group row rowHeight">
+                                                <label for="facForm" class="col-md-3 col-form-label">Enter Number: </label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" type="number" name="facIn" id="facIn" placeholder="1" />
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                     <button id="btn2" class="btn btn-primary">Calculate</button>
                                     <button id="btnFacCode" class="btn btn-primary">Show Code <i class="fa fa-caret-up"></i></button>
 
@@ -458,13 +476,17 @@
                                     <h3>FizzBuzz</h3>
                                     <h4>Enter two numbers between 1 and 100</h4>
                                     <form action="" name="fizzBuzzForm" id="fizzBuzzForm">
-                                        <div class="row rowHeight">
-                                            <label for="fizzBuzzForm">Enter Fizz Number: </label>
-                                            <input type="number" name="fizzNum1" id="fizzNum1" placeholder="1" />
+                                        <div class="form-group row rowHeight">
+                                            <label for="fizzBuzzForm" class="col-md-3 col-form-label">Enter Fizz Number:</label>
+                                            <div class="col-md-9">
+                                                <input type="number" class="form-control" id="fizzNum1" placeholder="1">
+                                            </div>
                                         </div>
-                                        <div class="row rowHeight">
-                                            <label for="fizzBuzzForm">Enter Buzz Number: </label>
-                                            <input type="number" name="fizzNum2" id="fizzNum2" placeholder="1" />
+                                        <div class="form-group row rowHeight">
+                                            <label for="fizzBuzzForm" class="col-md-3 col-form-label">Enter Buzz Number:</label>
+                                            <div class="col-md-9">
+                                                <input type="number" class="form-control" id="fizzNum2" placeholder="2">
+                                            </div>
                                         </div>
                                     </form>
                                     <button id="btn3" class="btn btn-primary">Show FizzBuzz</button>
@@ -502,8 +524,13 @@
                                 <div id="palindrome" class="tab-pane fade">
                                     <h3>Is it a Palindrome?</h3>
                                     <form action="" name="palForm" id="palForm">
-                                        <label for="palForm">Enter a Word: </label>
-                                        <input type="text" name="palIn" id="palIn" placeholder="Palindrome" />
+                                        <div class="form-group row rowHeight">
+                                            <label for="palForm" class="col-md-3 col-form-label">Enter a Word: </label>
+
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="text" name="palIn" id="palIn" placeholder="Palindrome" />
+                                            </div>
+                                        </div>
                                     </form>
                                     <button id="btn4" class="btn btn-primary">Press and See</button>
                                     <button id="btnPalCode" class="btn btn-primary">Show Code <i class="fa fa-caret-up"></i></button>
@@ -868,7 +895,7 @@
 
     <script>
         $("#btn1").click(function () {
-
+            if (!$("#numRunForm").valid()) { return -1 }
 
             //accquire and calculate
             var num1 = Number($("#num1").val());
@@ -877,17 +904,12 @@
             var num4 = Number($("#num4").val());
             var num5 = Number($("#num5").val());
 
-            if (!$("#numRunForm").valid()) { return -1 }
-
             $("#nbrRunResult").modal("show");
             $(document).on('hidden.bs.modal', function (event) {
                 if ($('.modal:visible').length) {
                     $('body').addClass('modal-open');
                 }
             });
-
-
-
 
             var lessNum = Math.min(num1, num2, num3, num4, num5);
             $("#output1").html("The <b>smallest</b> number of " + num1 + ", " + num2 + ", " + num3 + ", " + num4 + ", " + num5 + " is <b>" + lessNum + "</b>");
